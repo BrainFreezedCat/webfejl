@@ -1,0 +1,31 @@
+body.index{
+    background-image: url('hands.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+body.megadeth{
+    background-image: url('megedeth.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+body.metallica{
+    background-image: url('metallica.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+body.slayer{
+    background-image: url('slayer.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+body.anthrax{
+    background-image: url('anthrax.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
