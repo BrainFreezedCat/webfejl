@@ -1,31 +1,17 @@
-body.index{
-    background-image: url('hands.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+* {
+  box-sizing: border-box;
 }
-body.megadeth{
-    background-image: url('megedeth.jpg');
-    background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-body.metallica{
-    background-image: url('metallica.jpg');
-    background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-}
-body.slayer{
-    background-image: url('slayer.jpg');
-    background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-}
-body.anthrax{
-    background-image: url('anthrax.jpg');
-    background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+header {
+  padding: 2px;
+  margin: 0px;
+  background-color: rgb(50, 140, 193);
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
 }
