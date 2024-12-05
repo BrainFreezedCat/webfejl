@@ -37,6 +37,44 @@
         járultak hozzá a műfaj fejlődéséhez, mint a Metallica Master of Puppets
         vagy a Slayer Reign in Blood.
       </p>
+      <form action="/action_page.php">
+        <label for="fname">Keresztnév:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lnmame">Vezetéknév:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="sznap">Mi a születési dátumod?</label><br />
+        <input type="date" id="sznap" name="sznap" />
+        <p>Szeretnél hírlevelet kapni?</p>
+        <input type="radio" id="igen" name="level" value="Igen" />
+        <label for="igen">Igen</label><br />
+        <input type="radio" id="nem" name="level" value="Nem" />
+        <label for="nem">Nem</label><br />
+        <label for="email">Email címed?</label>
+        <input type="email" id="email" name="email" value="email" /><br />
+
+        <label for="mennyiseg">Hány emailt szeretnél kapni havonta</label>
+        <input type="range" id="mennyiseg" name="mennyiseg" min="1" max="10" />
+        <p>Mi a kedvenc bandád</p>
+        <label for="megadeth">Megadeth</label>
+        <input type="checkbox" id="megadeth" name="megadeth" value="Megadeth" />
+        <label for="metallica">Metallica</label>
+        <input
+          type="checkbox"
+          id="metallica"
+          name="metallica"
+          value="Metallica"
+        />
+        <label for="slayer">Slayer</label>
+        <input type="checkbox" id="slayer" name="slayer" value="Slayer" />
+        <label for="anthrax">Anthrax</label>
+        <input
+          type="checkbox"
+          id="anthrax"
+          name="anthrax"
+          value="Anthrax"
+        /><br />
+        <input type="submit" />
+      </form>
       <footer>Ez az oldal csak egy egyetemi beadandó feladat.</footer>
     </div>
   </body>
